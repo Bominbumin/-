@@ -1,0 +1,162 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+li {
+  list-style: none;
+}
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+/* header */
+.header{
+  width: 100%;
+  height: 100px;
+  background-color: #c9a0e0;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header img {
+  width: 100px;
+  margin-left: 40px;
+}
+.header .menu {
+  width: 1000px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+/* swiper */
+.slide {
+  width: 100%;
+  height: 400px;
+  margin: 0 auto;
+}
+/* contents */
+.contents {
+  display: block;
+}
+/* con1 */
+.contents .con1 {
+  width: 100%;
+  height: 600px;
+   margin: 0 auto;
+   background-color: #f5e3ff;
+}
+.con1 h2 {
+  padding-top: 5px;
+  font-size: 24px;
+  font-size: 24px;
+  align-items: center;
+  text-align: center;
+}
+.con1 h3 {
+  padding-top: 70px;
+  font-size: 11px;
+  align-items: center;
+  text-align: center;
+}
+.con1 img {
+  width: 300px;
+  height: 300px;
+}
+/* con2 */
+.contents .con2 {
+  display: flex;
+  width: 100%;
+  height: 400px;
+  background-color: #fba7a7;
+  margin: 0 auto;
+  justify-content: space-evenly;
+}
+.con2 .section {
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  border: 1px solid #000;
+}
+.con2 .box1 {
+  width: 50%;
+}
+.con2 .box2 {
+  width: 50%;
+  display: block;
+}
+.con2 .section2 {
+  width: 100%;
+  height: 50%;
+  background-color: #fff;
+  border: 1px solid #000;
+}
+.con2 .section3 {
+  width: 100%;
+  height: 50%;
+  background-color: #fff;
+  border: 1px solid #000;
+}
+
+/* con3 */
+.contents .con3 {
+  width: 100%;
+  height: 400px;
+  background-color: #ffb9b9;
+  margin: 0 auto;
+  display: block;
+}
+.con3 h2 {
+  text-align: center;
+  align-items: center;
+  padding: 30px;
+}
+.con3 .box {
+  display: flex;
+  justify-content: space-around;
+}
+.con3 .box1 {
+  width: 20%;
+  height: 280px;
+  background-color: #fff;
+}
+.con3 .box2 {
+  width: 20%;
+  height: 280px;
+  background-color: #fff;
+}
+.con3 .box3 {
+  width: 20%;
+  height: 280px;
+  background-color: #fff;
+}
+.con3 .box4 {
+  width: 20%;
+  height: 280px;
+  background-color: #fff;
+}
+.footer {
+  width: 100%;
+  height: 200px;
+  background-color: #666;
+  display: flex;
+}
+.footer p {
+  width: 80%;
+  height: 100%;
+  padding: 50px;
+}
+.footer .sns {
+  width: 20%;
+  height: 200px;
+  padding-top: 100px;
+  padding-right: 50px;
+}
+.footer ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
